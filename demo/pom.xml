@@ -52,7 +52,7 @@
                 <artifactId>tomcat-maven-plugin</artifactId>
                 <configuration>
 			<path>/${project.build.finalName}</path>
-                	<url>http:localhost:9090/manager/text</url>
+                	<url>http:localhost:9090/manager/text/list</url>
              		<username>admin</username>
  			<password>password</password>
                 </configuration>
