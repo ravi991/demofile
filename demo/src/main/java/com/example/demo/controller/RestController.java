@@ -10,7 +10,7 @@ public class RestController {
 	
 	@GetMapping
 	public String name() {
-		return "Welcome Gandu";
+		return "Deployed to Tomcat Server to Jenkins";
 		
 	}
 
