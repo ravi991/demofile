@@ -49,11 +49,13 @@
 			</plugin>
 		<plugin>
 
-    <configuration>
-        <url>http://localhost:8080/manager/text</url>
-        <server>TomcatServer</server>
-        <path>/demo</path>
-    </configuration>
+
+<configuration>
+  <path>/demo</path>
+  <url>http://localhost:9090/manager/text/list</url>
+  <username>admin</username>
+  <password>password</password>
+</configuration>
 </plugin>
 		</plugins>
 		 
