@@ -10,7 +10,7 @@ public class RestController {
 	
 	@GetMapping
 	public String name() {
-		return "Deployed to Tomcat Server to Jenkins";
+		return "Deployed first project of maven ";
 		
 	}
 
